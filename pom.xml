@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.github.crac.io.agroal</groupId>
     <artifactId>agroal-parent</artifactId>
-    <version>1.18</version>
+    <version>1.18.CRAC.0</version>
     <packaging>pom</packaging>
     <name>Agroal</name>
     <description>The natural database connection pool</description>
@@ -53,7 +53,7 @@
         </repository>
     </distributionManagement>
     <properties>
-        <forked.version>1.19-SNAPSHOT</forked.version>
+        <forked.version>1.18</forked.version>
         <!-- Dependency versions. Please keep alphabetical. Each version property should be of the form "version.<groupId>" -->
         <!-- In cases where multiple artifacts use the same groupId but have different versions, add the artifactId or other qualifier to the property name -->
         <version.com.h2database>2.1.214</version.com.h2database>
